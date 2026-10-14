@@ -4,6 +4,8 @@
 
 ### Look at What You'll Lose before Pruning with Hierarchical Token Selection
 
+**Official CVPR 2026 implementation**
+
 [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-6f42c1.svg)](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Hi-Lo_Prune_Look_at_What_Youll_Lose_before_Pruning_with_CVPR_2026_paper.html)
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_Hi-Lo_Prune_Look_at_What_Youll_Lose_before_Pruning_with_CVPR_2026_paper.pdf)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776ab.svg)](https://www.python.org/)
@@ -12,7 +14,9 @@
 
 </div>
 
-![Hi-Lo Prune overview](assets/overview.svg)
+![Hi-Lo Prune method overview from the CVPR 2026 paper](assets/hilo-prune-overview.png)
+
+<p align="center"><em>Figure 2. Overview of Hi-Lo Prune from the CVPR 2026 paper.</em></p>
 
 Hi-Lo Prune is a training-free visual-token pruning method for multimodal large
 language models. Instead of immediately dropping apparently redundant tokens,
