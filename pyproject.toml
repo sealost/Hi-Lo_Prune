@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hilo-prune"
+version = "0.1.0"
+description = "Training-free hierarchical visual-token pruning for multimodal LLMs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "Pillow>=10",
+  "qwen-vl-utils==0.0.14",
+  "torch>=2.6",
+  "transformers @ git+https://github.com/huggingface/transformers.git@e2e8dbed13c6a8455fd85c15c9fa91c99d609010",
+]
+
+[tool.setuptools.packages.find]
+include = ["hilo_prune*"]

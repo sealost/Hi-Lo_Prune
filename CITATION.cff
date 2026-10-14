@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use Hi-Lo Prune, please cite our CVPR 2026 paper."
+title: "Hi-Lo Prune: Look at What You'll Lose before Pruning with Hierarchical Token Selection"
+type: software
+authors:
+  - family-names: Sun
+    given-names: Zixun
+  - family-names: Dong
+    given-names: Yubo
+  - family-names: Fan
+    given-names: Hehe
+  - family-names: Yang
+    given-names: Yi
+repository-code: "https://github.com/sealost/Hi-Lo_Prune"
+url: "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Hi-Lo_Prune_Look_at_What_Youll_Lose_before_Pruning_with_CVPR_2026_paper.html"
